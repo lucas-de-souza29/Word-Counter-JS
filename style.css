@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right,#00c9b7, #051937);
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+textarea{
+    display: block;
+    width: 530px;
+    height: 200px;
+    resize: none;
+    border: 2px solid #3f6aaa;
+    border-radius: 10px;
+    padding: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+div {
+    margin-top: 10px;
+}
+
+div span#result-words{
+    font-size: 16px;
+}
+
+div span#result-characters{
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
